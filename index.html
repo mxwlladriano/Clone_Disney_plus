@@ -9,15 +9,15 @@
 <body>
     <header class="header">
         <div class="header__container">
-            <h1 class="header__logo">
-                <img src="./dist/images/disneyplus.svg" alt="disneyplus">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="disneyplus">
             </h1>
             <ul class="header__links">
                 <li class="header__links__item">
-                    <a class="button" href="#">Assine agora</a>
+                    <a class="button button--secondary" href="#">Assine agora</a>
                 </li>
                 <li class="header__links__item">
-                    <a class="button" href="#">Entrar</a>
+                    <a class="button button--dark" href="#">Entrar</a>
                 </li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
                     </span>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus_starzplay.png" alt="Disney+ Star+ combo+">
+                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ Star+ combo+">
                     <button class="button">Assine agora</button>
                     <span class="text">
                         R$00,00/mês
@@ -177,7 +177,10 @@
         </div>
     </section>
     <section class="image-text-section image-text-section--image-full-width">
-        <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
+        </picture>
         <div class="image-text-section__text__container image-text-section--image-full-width__text__container">
             <h2 class="title">Baixe filmes e series</h2>
             <p class="text--big">
