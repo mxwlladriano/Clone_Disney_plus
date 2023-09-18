@@ -1,0 +1,36 @@
+.header{
+    background-color: #13151d;
+    padding: 20px 5.6vw;
+    position: sticky;
+    top: -1px;
+    align-items: center;
+    text-align: center;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+
+        &__image{
+            height: 40px;
+
+            @media (max-width:768px){
+                display: none;
+            }
+        }
+
+        &__list{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &__item{
+                margin: 0 10px;
+
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}

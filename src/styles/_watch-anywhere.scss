@@ -1,0 +1,42 @@
+.watch-anywhere{
+    padding: 5.6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 200px;
+
+    @media (max-width:768px){
+        grid-template-columns: 1fr;
+        margin-bottom: 100px;
+    }
+
+    @media (max-width:1180px){
+        grid-template-columns: 1fr;
+        margin-bottom: 100px;
+    }
+
+    img{
+        max-width: 100%;
+        @media(max-width:1180px){
+            margin-bottom: 50px;
+        }
+    }
+
+    &__text_container{
+        padding: 0 2vw;
+
+        @media (max-width:768px){
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        @media (max-width:1180px){
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+
+    h2{
+        margin-bottom: 24px;
+    }
+}
