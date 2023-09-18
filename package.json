@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "mftv_player",
+=======
+  "name": "clone_landing_pag_filme_avatar",
+>>>>>>> 631ce4332e12561adee2c50e83575e2253b8898a
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,8 +19,11 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
     "sass": "^1.66.1"
+<<<<<<< HEAD
   },
   "dependencies": {
     "gulp-imagemin": "^7.1.0"
+=======
+>>>>>>> 631ce4332e12561adee2c50e83575e2253b8898a
   }
 }
